@@ -9,7 +9,7 @@ def silly_sum():
         user_sum += user_input
         if user_input == 0 or user_sum >= 1000:
             return user_sum
-
+# comment 
 
 if __name__ == "__main__":
     print(f"Answer = {silly_sum()}")
