@@ -2,12 +2,13 @@
 # Iterating Over Data
 # Problem-Set While Loops #11
 def silly_sum():
-    """ reads numbers from the user (use input_int) 
-        summing as we go until either
-        the user enters 0, or
-        the sum reaches or exceeds 1000
-    """
-    pass
+    user_sum = 0
+    
+    while True:
+        user_input = input()
+        user_sum += user_input
+        if user_input == 0 or user_sum >= 1000:
+            return user_sum
 
 
 if __name__ == "__main__":
